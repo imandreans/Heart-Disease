@@ -157,9 +157,6 @@ with open("model.pkl", "rb") as file:
     loaded_model = pickle.load(file)
     prediction = loaded_model.predict(data)
 
-# Button to reset input value
-st.button("Reset", type="secondary")
-
 # Button to predict input value
 if st.button("Predict", type="primary"):
     if prediction == 1:
