@@ -1,10 +1,7 @@
 # Import library
 import streamlit as st
 import pickle
-from sklearn.preprocessing import StandardScaler
-import pandas as pd
 import numpy as np
-from sklearn.preprocessing import MinMaxScaler
 
 # set page title and icon
 st.set_page_config(page_title="Heart Disease Detection", page_icon="🫀")
