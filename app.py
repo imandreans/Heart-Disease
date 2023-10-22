@@ -133,21 +133,6 @@ ca = {
     "3 blood vessels": 3,
 }
 
-# data = pd.DataFrame(
-#     {
-#         "age": patient_age,
-#         "sex": sex[gender],
-#         "cp": cp[chest_pain],
-#         "thalach": thalach,
-#         "exang": exang,
-#         "oldpeak": oldpeak,
-#         "slope": slope[slope_of_st],
-#         "ca": ca[num_of_blood_vessel],
-#         "thal": thal[thalium_result],
-#     },
-#     index=[0],
-# )
-
 # Combine all features's value in array
 data = (
     np.array(
@@ -168,7 +153,7 @@ data = (
 )
 
 # Get machine learning model
-with open("model_testing.pkl", "rb") as file:
+with open("model.pkl", "rb") as file:
     loaded_model = pickle.load(file)
     prediction = loaded_model.predict(data)
 
