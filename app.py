@@ -4,10 +4,10 @@ import pickle
 import numpy as np
 
 # set page title and icon
-st.set_page_config(page_title="Heart Disease Detection", page_icon="🫀")
+st.set_page_config(page_title="Heart Disease Prediction", page_icon="🫀")
 
 # Put title and divider below it
-st.title("Heart Disease Detection")
+st.title("Heart Disease Prediction")
 st.divider()
 
 # make first 3 columns
