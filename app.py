@@ -2,6 +2,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 
 # set page title and icon
 st.set_page_config(page_title="Heart Disease Detection", page_icon="🫀")
