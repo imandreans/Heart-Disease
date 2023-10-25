@@ -18,7 +18,7 @@ The four models are trained, as follows:
 - Decision Tree
 - Multi-Layer Perceptron
 
-These models are tuned using GridSearchCV to find the best accuracy score and determine their optimal parameters. The models are then evaluated based on their ROC-AUC scores to assess their ability to distinguish between classes. The model with the highest ROC-AUC score is selected for deployment in Streamlit.
+These models are tuned using GridSearchCV to find the best accuracy score and determine their optimal parameters. The models are then evaluated based on their ROC-AUC scores to assess their ability to distinguish between classes. The model with the highest ROC-AUC score is selected for deployment in Streamlit. Run `modelling.ipynb` to build machine learning model.
 
 # Result
 ## Most influential features
