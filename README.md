@@ -1,6 +1,7 @@
 # Overview
   ## Data
-  This dataset comprises 1025 medical records of heart disease, containing 14 columns, which are 13 features and 1 class variable.
+  This dataset comprises 1025 medical records of heart disease, containing a total of 14 columns, which are 13 features and 1 class variable.
+  
 
   ## Objective
   - to develop a machine learning model to predict heart disease
@@ -21,8 +22,7 @@ These models are tuned using GridSearchCV to find the best accuracy score and de
 ## Most influential features
 The most influential features in the dataset that cause heart disease are age,' 'sex,' 'cp,' 'thalach,' 'exang,' 'oldpeak,' 'slope,' 'ca,' and 'thal'.
 
-![corr_target](https://github.com/imandreans/Heart-Disease-Prediction/assets/69078720/d00ac2b8-3581-460a-bf48-73be93fb0843)
-
+![image](https://github.com/imandreans/Heart-Disease-Prediction/assets/69078720/93e9f0e9-9d97-4877-b63b-7ce4234eb740)
 
 Description of correlation:
 1. age: -0.23 (Moderate)
@@ -43,4 +43,4 @@ Description of correlation:
 ## Chosen model
 Random Forest has the highest ROC-AUC score, with its parameters are 'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 200.
 
-![ROC-AUC](https://github.com/imandreans/Heart-Disease-Prediction/assets/69078720/3d96ef6c-7fa8-4046-8eee-26181d6c807f)
+![image](https://github.com/imandreans/Heart-Disease-Prediction/assets/69078720/78ee8d59-14ea-4dd1-bfbb-37d0e50b266d)
