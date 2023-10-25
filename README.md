@@ -1,9 +1,10 @@
 # Overview
   ## Data
   This dataset comprises 1025 medical records of heart disease, containing a total of 14 columns, which are 13 features and 1 class variable. Further information about the data can be accessed on the citation.
+  
   ![image](https://github.com/imandreans/Heart-Disease-Prediction/assets/69078720/13f5667e-9301-494d-a07c-bd96e1c7a6ff)
 
-
+      
   ## Objective
   - to develop a machine learning model to predict heart disease
   - to identify the most influential features that cause heart disease.
